@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module exercises.ex5</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title"><a href="exercises.html" class="white">exercises</a>.ex5</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cdep.%20traducci%C3%B3.desktop-1ijugar%5Cdesktop%5Cuoc%5Casignaturas%5Ccurso%20preparatorio%5Cprogramaci%C3%B3n%20para%20la%20ciencia%20de%20datos%5Cpec_4%5Claliga1996-2026%5Csrc%5Cexercises%5Cex5.py">c:\users\dep. traducció.desktop-1ijugar\desktop\uoc\asignaturas\curso preparatorio\programación para la ciencia de datos\pec_4\laliga1996-2026\src\exercises\ex5.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="numpy.html">numpy</a><br>
+</td><td class="multicolumn"></td><td class="multicolumn"></td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-add_points"><strong>add_points</strong></a>(data)</dt><dd><span class="code">Copia&nbsp;del&nbsp;dataframe&nbsp;original&nbsp;seleccionándose&nbsp;de&nbsp;las&nbsp;columnas&nbsp;FTR&nbsp;H,&nbsp;A&nbsp;Y&nbsp;D<br>
+y&nbsp;adjudicándose&nbsp;3,1,0&nbsp;en&nbsp;función&nbsp;del&nbsp;ganador&nbsp;del&nbsp;partido.<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;(DataFrame):&nbsp;Dataset&nbsp;de&nbsp;partidos&nbsp;de&nbsp;La&nbsp;Liga&nbsp;entre&nbsp;1996&nbsp;y&nbsp;2026:<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;DataFrame:&nbsp;Tabla&nbsp;con&nbsp;nuevas&nbsp;columnas&nbsp;HTP,ATP&nbsp;en&nbsp;las&nbsp;que&nbsp;aparecen&nbsp;los&nbsp;puntos&nbsp;en&nbsp;la&nbsp;mitad&nbsp;parte</span></dd></dl>
+ <dl><dt><a name="-alltime_winner"><strong>alltime_winner</strong></a>(df_total_points)</dt><dd><span class="code">Calcula&nbsp;el&nbsp;equipo&nbsp;que&nbsp;mas&nbsp;puntos&nbsp;ha&nbsp;ganado<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;df_total_points&nbsp;(DataFrame):&nbsp;Dataset&nbsp;con&nbsp;la&nbsp;columna&nbsp;TotalPoints&nbsp;para&nbsp;cada&nbsp;equipo.<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Nombre&nbsp;del&nbsp;equipo&nbsp;tipo&nbsp;texto&nbsp;(str)&nbsp;que&nbsp;ocupa&nbsp;la&nbsp;primera&nbsp;posición</span></dd></dl>
+ <dl><dt><a name="-fun_total_points"><strong>fun_total_points</strong></a>(data)</dt><dd><span class="code">Calcula&nbsp;los&nbsp;puntos&nbsp;totales&nbsp;acumulados&nbsp;para&nbsp;cada&nbsp;equipo.<br>
+&nbsp;<br>
+Suma&nbsp;los&nbsp;puntos&nbsp;obtenidos&nbsp;como&nbsp;local&nbsp;(HTP)&nbsp;y&nbsp;como&nbsp;visitante<br>
+(ATP),&nbsp;generando&nbsp;una&nbsp;clasificación&nbsp;histórica&nbsp;ordenada&nbsp;de<br>
+mayor&nbsp;a&nbsp;menor&nbsp;puntuación(ascending=False).<br>
+&nbsp;<br>
+Args:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;data&nbsp;(DataFrame):&nbsp;Dataset&nbsp;de&nbsp;partidos&nbsp;de&nbsp;La&nbsp;Liga&nbsp;entre&nbsp;1996&nbsp;y&nbsp;2026:<br>
+&nbsp;<br>
+Returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;tuple:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;total_points&nbsp;(Series):&nbsp;Puntos&nbsp;totales&nbsp;por&nbsp;equipo.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;df_total_points&nbsp;(DataFrame):&nbsp;Tabla&nbsp;con&nbsp;los&nbsp;puntos<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;totales&nbsp;por&nbsp;equipo.</span></dd></dl>
+</td></tr></table>
+</body></html>
