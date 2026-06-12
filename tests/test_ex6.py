@@ -11,7 +11,7 @@ from exercises.ex5 import add_points
 
 
 class TestFunTotalGoals(unittest.TestCase):
-    """Tests para fun_total_goals (ejercicio 6)."""
+    """Tests para fun_total_goals (Ej. 6)."""
 
     def test_goles_correctos(self):
         """Verifica que fun_total_goals calcula correctamente los goles locales, visitantes y totales."""
@@ -27,9 +27,8 @@ class TestFunTotalGoals(unittest.TestCase):
         self.assertEqual(total_goals, 9)
         self.assertEqual(total_goals, home_goals + away_goals)
 
-
 class TestAddPoints(unittest.TestCase):
-    """Tests para add_points (ejercicio 5)."""
+    """Tests para add_points (Ej. 5)."""
 
     def test_puntos_por_resultado(self):
         """Verifica que add_points asigna 3/1/0 puntos según el resultado del partido."""

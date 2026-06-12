@@ -1,0 +1,15 @@
+pip install pytest --break-system-packages --quiet && python3 -m pytest tests/test_ex6.py -v 2>&1
+python3 -m pytest tests/test_ex6.py -v 2>&1
+
+
+#pydoc
+cd /home/chaumepgtec/Documentos/Eric/laliga1996-2026/src && PYTHONPATH=. python3 -m pydoc -w main exercises.ex1 exercises.ex2 exercises.ex3 exercises.ex4 exercises.ex5 exercises.ex6 exercises.ex7 2>&1 && mv *.html ../doc/ && echo "OK" && ls ../doc/
+
+
+#pylint
+pipx install pylint 2>/dev/null && pylint --version || pip install pylint --break-system-packages --quiet && pylint --version
+
+
+pylint src/exercises/*.py src/main.py 2>&1 | head -80
+
+
